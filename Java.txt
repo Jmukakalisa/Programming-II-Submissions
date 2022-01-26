@@ -1,0 +1,16 @@
+Differnt between JDK, JRE, and JMV
+
+JDK(Java Development Kit) is the surface used to build the Java applications and components.
+                                     JDK Consists:   
+                                  /       \
+                               Compiler    JRE(Java Run-Time Environment)
+                                  |          |   
+                              .Class file    JMV(Java Virtual Machine) 
+                                or(Byte code)/| 
+                                              Output
+
+JRE(Java Run-Time Environment) Is JDK part that consist a set of compenents used
+to create and Run Java applications.
+
+JMV(Java Virtual Machine) As you can see from the above diagram, JMV is the operating system depending
+because it is a part of JRE that receive the compiled .class file or Byte code to produce the output.
